@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+hr {
+    background-color: transparent;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+
+}
+.profilepic {
+  border-radius: 50%;
+  margin-top: 100px;
+}
+.first {
+  background-color: #e8ddf6;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.bird1 {
+  position: relative;
+  left: 200px;
+  bottom: 300px;
+}
+.bird2 {
+  position: relative;
+  right: 150px;
+  bottom: 220px;
+}
+.topcontainer {
+  background-color: #edddf2;
+  margin: auto;
+}
+.middlecontainer {
+  background-color: #f1dcef;
+  padding-bottom: 100px;
+}
+.bottomcontainer {
+  background-color: #f6dbec;
+  padding: 50px 0 20px;
+}
+h1 {
+  margin-top: 50px auto 0 auto;
+  font-family: 'Rouge Script', cursive;
+  font-size: 90px; /*100%=16px=1em*/
+  color: #c45774;
+  line-height: 2;
+
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  color: #c45774;
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7rem;
+  color: #c45774;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+.pasta {
+  color: #c45774;
+  font-weight: normal;
+}
+a {
+  color: #11999E;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.cake {
+  width: 30%;
+  float: left;
+  margin-right: 30px
+}
+.lightbulb {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+  background: #c45774;
+  background-image: -webkit-linear-gradient(top, #c45774, #9e334f);
+  background-image: -moz-linear-gradient(top, #c45774, #9e334f);
+  background-image: -ms-linear-gradient(top, #c45774, #9e334f);
+  background-image: -o-linear-gradient(top, #c45774, #9e334f);
+  background-image: linear-gradient(to bottom, #c45774, #9e334f);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Raleway', sans-serif;
+  color: #f5f0f1;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.footer-link {
+  margin-top: 40px;
+}
+.intro {
+  width: 50%;
+  margin: auto;
+}
